@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>aa</title>
+    <style>
+        input{
+            box-sizing: border-box;
+        }
+        input :focus{
+            background-color: darkgray;
+        }
+        .required{
+            padding: 0.5em;
+            font-size: 0.75em;
+            color:  #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <p>
+            <label for= "name-field">お名前 <span class="required">*必須</span></label>
+            <input type="text" name="" id="name-field" required><input type="submit" id="name-filed">
+        </p>    
+        <p>
+            <label for= "email-field">Email <span class="required">*必須</span></label>
+            <input type="email" name="" id="email-field"  required><input type="submit" id="email-field">
+        </p>
+    </form>
+</body>
+</html>
