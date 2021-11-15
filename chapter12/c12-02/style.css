@@ -3,8 +3,10 @@ body {
     margin: 0%;
 }
 .container {
-	padding: 0 16px 0 16px;
+	margin: 0 auto 0 auto;
+	max-width: 1000px;
 }
+
 section .container {
 	display: flex;
 	flex-flow: column;
@@ -19,19 +21,21 @@ section .container {
 	color: #fff;
 	background: #0086f9;
 }
-.main-inner {
+main {
     padding: 20px 10px 20px 10px;
 	background: #fffde3;
 	height: 400px;
 }
-.sidebar-inner {
+.sidebar {
     padding: 20px 10px 20px 10px;
 	background: #c0f5b9;
 }
+
 .footer-inner {
     padding: 20px 16px 10px 16px;
 	background: #bad7f5;
 }
+
 @media only screen and (min-width: 768px) {
 	section .container {
 		flex-flow: row;
@@ -51,27 +55,5 @@ section .container {
 }
 
 
-body {
-	color: #444;
-}
-main p:last-child {
-	margin-bottom: 0;
-}
-.main-title {
-	margin: 0;
-}
-.copyright {
-	margin: 0;
-}
-nav {
-    margin-bottom: 20px;
-}
-footer {
-    margin-top: 20px;
-}
-.container {
-	margin: 0 auto 0 auto;
-	padding: 0 16px 0 16px;
-	max-width: 1000px;
-}
+
 
