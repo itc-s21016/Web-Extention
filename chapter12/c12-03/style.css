@@ -46,9 +46,16 @@ body {
 		flex-flow: row;
 	}
 	main {
-		flex: 11 auto;
+		flex: 1 1 auto;
+		float: left;
+		width: 100%;
+		margin-right: -340px;
+	}
+	.main-inner {
+		margin-right: 340px;
 	}
 	.sidebar {
+		float: right;
 		flex: 0 0 340px;
 	}
 	.hamburger {
@@ -79,15 +86,7 @@ main p:last-child {
 nav {
     margin-bottom: 20px;
 }
-footer {
-    margin-top: 20px;.hamburger {
-		border: none;
-		width: 50px;
-		height: 50px;
-		background: url(hamburger.png) no-repeat;
-		background-size: contain;
-	}
-}
+
 .container {
 	margin: 0 auto 0 auto;
 	max-width: 1000px;
