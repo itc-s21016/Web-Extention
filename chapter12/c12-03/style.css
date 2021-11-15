@@ -8,13 +8,13 @@ body {
     padding: 10px 10px 0 10px;
 }
 
-.main {
+main {
     padding: 20px 10px 20px 10px;
 	background: #fffde3;
 	height: 400px;
 }
 .sidebar {
-    padding: 20px 10px 20px 10px;
+    padding: 20px 10px 20px ;
 	background: #c0f5b9;
 }
 .hamburger {
@@ -25,11 +25,14 @@ body {
 	background-size: contain;
 }
 .navbar {
-	display: none;
+	display: flex !important;
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	background: #565656;
+}
+.navbar li:first-child {
+	margin-right: auto;
 }
 .navbar li a {
 	display: block;
@@ -95,6 +98,5 @@ section .container {
 	display: flex;
 	flex-flow: column;
 }
-
 
 
